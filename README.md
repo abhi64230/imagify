@@ -49,6 +49,7 @@ Deployment: Vercel (frontend) + Render/Heroku (backend)
 │   │   └── utils/
 │   └── package.json
 │
+
 ├── server/           # Node.js backend
 │   ├── config/       # DB & environment configs
 │   ├── controllers/  # Auth, Payment, Image generation
@@ -57,11 +58,13 @@ Deployment: Vercel (frontend) + Render/Heroku (backend)
 │   ├── server.js     # Entry point
 │   └── package.json
 │
+
 ├── .gitignore
 ├── README.md
 └── package.json
 
 ⚙️ Installation & Setup
+
 1️⃣ Clone Repository
 git clone https://github.com/your-username/ai-text-to-image-saas.git
 cd ai-text-to-image-saas
@@ -77,10 +80,15 @@ npm install
 
 3️⃣ Setup Environment Variables
 Create .env file in the server/ folder:
+
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_jwt_secret
+
 CLIPDROP_API_KEY=your_clipdrop_api_key
+
 STRIPE_SECRET_KEY=your_stripe_secret_key
+
 STRIPE_PUBLIC_KEY=your_stripe_public_key
 
 4️⃣ Run the App
