@@ -66,7 +66,7 @@ Deployment: Vercel (frontend) + Render/Heroku (backend)
 ⚙️ Installation & Setup
 
 1️⃣ Clone Repository
-git clone https://github.com/your-username/ai-text-to-image-saas.git
+git clone https://github.com/abhi64230/imagify.git
 cd ai-text-to-image-saas
 
 2️⃣ Install Dependencies
